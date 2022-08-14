@@ -1,0 +1,38 @@
+@use "../util" as u;
+@use "../globals" as g;
+
+.pymt-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 1rem;
+    min-width: 80%;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.pymt-options-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+    justify-items: center;
+    
+}
+
+.pymt-options {
+    display: flex;
+    border: 1px solid g.$border;
+    border-radius: 5px;
+    padding: 0.25rem;
+    min-width: 80%;
+    box-shadow: 4px 2px 8px -2px rgba(171,168,171,0.57);
+    }
+
+.pymt-img {
+    max-width: 80%;
+    height: 10vw;
+    margin: 0 auto;
+}
+

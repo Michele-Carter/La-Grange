@@ -1,0 +1,48 @@
+@use "../util" as u;
+@use "../globals" as g;
+
+.addBtn {
+  display: block;
+  background-color: g.$addBtn;
+  border: none;
+  border-radius: 0.3125rem;
+  color: var(--background-color);
+  min-width: 80%;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 0.25rem;
+}
+
+.radio-btn {
+  display: flex;
+  flex-direction: row;
+}
+
+// dairy free radio button
+.dfbtn {
+  margin-right: 0.5rem;
+}
+
+// green button
+.back-btn {
+  display: flex;
+  max-width: 40%;
+  margin-left: 1rem;
+}
+
+.subscribe-area {
+  display: block;
+  margin-inline: auto;
+  width: 80%;
+
+  .subscribe-btn {
+    background-color: g.$submitBtn;
+    border: none;
+    border-radius: 1rem;
+    color: var(--background-color);
+    min-width: 100%;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    padding: 0.25rem;
+  }
+}

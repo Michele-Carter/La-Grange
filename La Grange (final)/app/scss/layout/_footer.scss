@@ -1,0 +1,11 @@
+@use "../globals/" as g;
+@use "../util" as u;
+
+.footer {
+  min-height: u.rem(70);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  
+}

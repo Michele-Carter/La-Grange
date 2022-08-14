@@ -1,0 +1,32 @@
+fieldset {
+  border: 1px solid hsl(0, 0%, 67%);
+  padding: 1rem;
+
+  legend,
+  label,
+  input {
+    font-size: smaller;
+  }
+}
+
+legend {
+  text-align: center;
+}
+
+label {
+  display: block;
+  float: left;
+  clear: left;
+  text-align: right;
+  max-width: 100%;
+  padding-top: 0.25em;
+  margin: 1em 5px 0 0;
+}
+
+input {
+  display: block;
+  float: right;
+  max-width: 50%;
+  margin-top: 0.5rem;
+}
+

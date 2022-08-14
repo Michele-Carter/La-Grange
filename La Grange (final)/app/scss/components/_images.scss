@@ -1,0 +1,50 @@
+@use "../util" as u;
+@use "../globals" as g;
+
+// home/index page
+// la Grange lion logo
+.logo {
+  width: 10vh;
+  }
+
+// carousel images
+// (also used for other images to help size and center them)
+.featureImg {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  
+  }
+
+// la grange logo lettering at bottom of page
+// (also used to center social media icons)
+.bottom {
+  margin: auto;
+}
+
+// shadow border img underneath page title
+.shadow-border {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  max-width: 60%;
+}
+
+// main menu page
+.item-pic {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  }
+
+.modal-pic {
+  margin-bottom: 1rem;
+}
+
+// review order/cart
+.thumbnail-pic {
+  display: block;
+  max-width: 100%;
+  border-radius: 0.3125rem;
+}
+

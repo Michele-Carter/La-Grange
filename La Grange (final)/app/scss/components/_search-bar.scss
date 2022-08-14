@@ -1,0 +1,52 @@
+@use "../util" as u;
+@use "../globals" as g;
+
+.search-bar {
+  margin: 0;
+  padding: 0;
+
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .searchTerm {
+      width: 100%;
+      border: 0.5px solid var(--background-color);
+      box-shadow: 0.25px 1px 6px g.$border;
+      border-right: none;
+      padding: 5px;
+      height: 1.5rem;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+      color: var(--text-color);
+      margin-top: 0;
+      margin-bottom: 0.8rem;
+    }
+  }
+}
+
+
+.searchButton {
+  width: 2rem;
+  height: 1.5rem;
+  border: 1px solid g.$searchBtn;
+  box-shadow: 0 1px 6px g.$searchBtn;
+  background: g.$searchBtn;
+  text-align: center;
+  color: var(--background-color);
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 10px;
+
+  .wrap {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+  }
+      
+

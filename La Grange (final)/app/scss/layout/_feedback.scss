@@ -1,0 +1,51 @@
+@use "../util/" as u;
+@use "../globals/" as g;
+
+.green-tick-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    
+    .green-tick {
+        width: 30%;
+    }
+}
+
+.pymt-cnfm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+
+    .submit-feedback {
+        text-align: center;
+        font-family: u.$fontSans;
+    }
+}
+
+.stars {
+    width: 50%;
+}
+
+.feedback-wrapper {
+    width: 100%;
+    .feedback-box {
+        width: 100%;
+        height: 10rem;
+        border: .5px solid g.$border;
+    }
+}
+
+.modal-header {
+    justify-content: center;
+}
+
+.modal-body {
+    text-align: center;
+
+    .modal-submit-blurb {
+        text-align: center;
+        font-family: u.$fontSans;
+    }
+}
